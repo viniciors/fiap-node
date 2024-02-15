@@ -14,4 +14,8 @@ const divide = (num1, num2) => {
     return num1 / num2
 }
 
+const square = (num) => {
+    return num * num
+}
+
 module.exports = {sum, minus, mult, divide}
